@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: rgb(172, 185, 196)  ;
 }
 
 .App-logo {
@@ -11,6 +12,9 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+.image{
+  border-radius: 50px;
 }
 
 .App-header {

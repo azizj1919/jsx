@@ -1,23 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import NAME from './Components/Name';
+import PRICE from './Components/Price';
+import DESCR from './Components/Desc';
+import turb from './turbo.jpg'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+    <div><NAME></NAME></div>
+    <div><PRICE></PRICE></div>
+    <div><DESCR></DESCR></div>
+    <div ><img className='image' src={turb} alt="Logo" /></div>
+    
+    
+    
     </div>
   );
 }
